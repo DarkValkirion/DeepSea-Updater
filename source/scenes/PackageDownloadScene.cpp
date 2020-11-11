@@ -218,7 +218,7 @@ namespace dsu::scenes {
                 }
 
                 std::string assetName(json_string_value(name));
-                if (assetName.compare(0, 8, "deepsea_") != 0 || assetName.compare(assetName.length() - 4, 4, ".zip") != 0) {
+                if (assetName.compare(0, 16, "deepsea-minimal_") != 0 || assetName.compare(assetName.length() - 4, 4, ".zip") != 0) {
                     continue;
                 }
 
