@@ -92,7 +92,7 @@ namespace dsu::scenes
     {
         if (_appVersionRequest == NULL)
         {
-            _appVersionRequest = new WebRequest("https://api.github.com/repos/Team-Neptune/DeepSea-Updater/releases");
+            _appVersionRequest = new WebRequest("https://api.github.com/repos/DarkValkirion/DeepSea-Updater/releases");
             SessionManager::makeRequest(_appVersionRequest);
         }
 
